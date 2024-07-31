@@ -1,1 +1,16 @@
-
+import './App.css';
+const alertMessage=()=>
+{
+    alert("Message from javascript Alert!");
+    console.log("Message from javascript Alert!");
+}
+const Day1cw1=()=>
+{
+    return(
+        
+           <div>
+                <button onClick={alertMessage}>JAVASCRIPT</button>
+        </div>
+    )
+}
+export default Day1cw1;
